@@ -1,2 +1,7 @@
 <?php
-echo "Welocme page";
+$app = new Application();
+$app->router->get('/', function(){
+    return 'Welocme page';
+});
+
+$app->run();
