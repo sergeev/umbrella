@@ -1,0 +1,17 @@
+{
+    "name": "sergeev/umbrella",
+    "authors": [
+        {
+            "name": "sergeev",
+            "email": "v.sergeev.m@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "app\\": "."
+        }
+    },
+
+    "require": {}
+}
